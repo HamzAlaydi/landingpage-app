@@ -1,0 +1,123 @@
+.recomends {
+    margin-top: 80px;
+}
+
+.recomends .h3-head {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* or 143% */
+
+    text-align: center;
+
+    color: #0B132A;
+}
+
+.recomends .p-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    text-align: center;
+    color: #4F5665;
+}
+
+.recomends .cards {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.recomends .cards div {
+    margin-left: 50px;
+    height: 230px;
+    width: 400px;
+    position: relative;
+}
+
+.cards .first::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 230px;
+    left: -20px;
+    top: 10px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: 2px solid #F53838;
+}
+
+
+.cards .second::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 230px;
+    left: -20px;
+    top: 10px;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.cards .third::after {
+    content: '';
+    position: absolute;
+    width: 350px;
+    height: 230px;
+    left: -20px;
+    top: 10px;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.p-images {
+    margin-top: 20px;
+}
+
+.num-star {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+    position: absolute;
+    top: 25px;
+    left: 16rem;
+    color: #0B132A;
+}
+
+.num-star::after {
+    content: '';
+    background-image: url('../../statics/images/star.png');
+    width: 16px;
+    height: 17px;
+    position: absolute;
+    top: 5px;
+    left: 25px;
+}
+
+.clicks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 50px; */
+}
+
+.left-btns {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right {
+    margin-top: 20px;
+}

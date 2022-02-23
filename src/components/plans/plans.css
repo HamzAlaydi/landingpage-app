@@ -1,0 +1,158 @@
+.plans {
+    margin-top: 150px;
+}
+
+.plans .h3-head {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+
+    color: #0B132A;
+}
+
+.p-head {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+    text-align: center;
+
+    color: #4F5665;
+}
+
+.plans .cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.plans .cards img {
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.plans .cards div {
+    background: #FFFFFF;
+    border: 2px solid #DDDDDD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 70px;
+}
+
+.premium {
+    background: #FFFFFF;
+    border: 2px solid #F53838 !important;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 20px 50px;
+}
+
+.type {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+    color: #0B132A;
+}
+
+
+.cards ul li {
+    list-style: none;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+    color: #4F5665;
+}
+
+.cards ul li::before {
+    content: '';
+    background-image: url('../../statics/images/Vector.png');
+    position: absolute;
+    width: 14px;
+    height: 10px;
+    top: 10px;
+    left: -25px;
+
+}
+
+.cards .price {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+    /* identical to box height, or 120% */
+
+    text-align: center;
+
+    color: #0B132A;
+
+}
+
+.last-free {
+    margin-bottom: 130px;
+}
+
+.last-standard {
+    margin-bottom: 90px;
+}
+
+.last-premium {
+    margin-bottom: 50px;
+
+}
+
+.submit-btn {
+    width: 177.88px;
+    height: 45px;
+    left: 251.06px;
+    top: 2441.55px;
+
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #F53838;
+}
+
+.submit-btn-p {
+    width: 177.88px;
+    height: 45px;
+    left: 251.06px;
+    top: 2441.55px;
+
+    border: 2px solid #F53838;
+    box-sizing: border-box;
+    border-radius: 50px;
+    background-color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    color: #FFF;
+    background-color: #F53838;
+}

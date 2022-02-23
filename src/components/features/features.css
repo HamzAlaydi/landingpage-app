@@ -1,0 +1,61 @@
+.features {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 80px;
+}
+
+.right-contents {
+    margin-right: 250px;
+}
+
+.left-contents {}
+
+.left-contents h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    /* or 143% */
+    color: #0B132A;
+}
+
+.left-contents p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+
+    color: #4F5665;
+}
+
+.left-contents ul {}
+
+.left-contents li {
+    list-style: none;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    /* identical to box height, or 214% */
+
+
+    color: #4F5665;
+}
+
+.left-contents li::before {
+    content: '';
+    background-image: url('../../statics/images/true.png');
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 0;
+    left: -40px;
+
+}

@@ -1,0 +1,58 @@
+.footer {
+    margin-top: 100px;
+
+}
+
+.colomns {
+    padding-top: 200px !important;
+    background: #F8F8F8;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer ul {
+    padding: 0;
+}
+
+.footer ul li {
+    list-style: none;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+
+
+    color: #4F5665;
+
+}
+
+.copy-right {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    /* identical to box height, or 187% */
+
+    text-align: center;
+
+    color: #AFB5C0;
+
+}
+
+.last-p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    /* or 187% */
+
+
+    color: #4F5665;
+}
